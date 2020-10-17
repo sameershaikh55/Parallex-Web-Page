@@ -1,0 +1,151 @@
+html, body{
+    margin: -11px 0px 0px 0px;
+    padding: 0mm 0mm 0mm 0mm;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.img1 {
+    background-image: url("https://mewallpaper.com/thumbnail/city/7158-new-york-night-city-hd-download-free-image.jpg");
+    position: relative;
+    opacity: 0.80;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 650px;
+}
+
+.img2 {
+    background-image: url("https://i.ytimg.com/vi/9lc0PssgJdE/maxresdefault.jpg");
+    position: relative;
+    opacity: 0.75;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 630px;
+}
+
+.img3 {
+    background-image: url("https://www.pixel4k.com/wp-content/uploads/2018/09/new-york-city-street-reflection-motion-blur-dark-4k_1538072061.jpg");
+    position: relative;
+    opacity: 0.60;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 630px;
+}
+
+.img4 {
+    background-image: url("https://mewallpaper.com/thumbnail/city/7158-new-york-night-city-hd-download-free-image.jpg");
+    position: relative;
+    opacity: 0.60;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 630px;
+}
+
+.caption {
+    color: white;
+    background-color: rgba(0,0,0,0.9);
+    border-radius: 7px;
+    font-weight: 200;
+    font-size: 45px;
+    font-family: "lato", sans-serif;
+    letter-spacing: 8px;
+    text-align: center;    
+    padding: 22px;  
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-72%);    
+}
+
+.section-dark {
+    font-family: "lato", sans-serif;
+    text-align: center;
+    background-color: rgba(0,0,0,0.8);
+    padding: 40px;
+    color: aliceblue;
+    word-spacing: 4px;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.section-light {
+    font-family: "lato", sans-serif;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.692);
+    padding: 35px;
+    color: black;
+    word-spacing: 4px;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.traffic-lights {
+    color: rgb(247, 43, 43);
+    background-color: rgba(0,0,0,0.9);
+    border-radius: 5px;
+    font-weight: lighter;
+    text-decoration: black;
+    font-size: 45px;
+    font-family: "lato", sans-serif;
+    letter-spacing: 3px;
+    text-align: center;    
+    padding: 15px;  
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-72%);    
+}
+
+.street {
+    color: rgb(43, 216, 247);
+    background-color: rgba(0,0,0,0.9);
+    border-radius: 3px;
+    font-weight: lighter;
+    font-size: 50px;
+    font-family: "lato", sans-serif;
+    letter-spacing: 8px;
+    text-align: center;    
+    padding: 10px;  
+    margin-left: auto;
+    margin-right: auto;
+    width: 275px;    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-72%);   
+}
+
+footer {
+    font-family: "lato", sans-serif;
+    text-align: center; 
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    padding: 3px 3px 3px 3px;
+    font-style: oblique;
+    letter-spacing: 1.2px;
+}
+a {
+    color: tomato;
+    font-style: oblique;
+    font-weight: lighter;
+}
+
+a:hover {
+    color: royalblue;
+}
