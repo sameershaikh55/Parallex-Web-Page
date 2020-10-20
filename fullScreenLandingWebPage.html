@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Screen Landing</title>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            font-family: 'PT Sans', sans-serif;
+        }
+
+        .img {
+            background-image: url("https://wallpaperaccess.com/full/119618.jpg");
+            position: relative;
+            height: 1000px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        ::-webkit-scrollbar {
+            display: none;
+        }
+
+        .headings {
+            color: rgba(0,0,0,0.0001);
+            background-color: rgba(0,0,0,0.4);
+            text-align: center;
+            padding: 337px 523px 337px 523px;
+            left: 50%;
+            top: 50%;
+            position: absolute;
+            transform: translateX(-50%) translateY(-50%);
+        }
+
+        .h1 {    
+            font-size: 60px;
+            font-family: 'PT Sans', sans-serif;
+            margin-bottom: 5px;
+        }
+
+        .p {
+            font-size: 18px;
+            line-height: 22px;     
+        }
+
+        .headings2 {
+            color: rgb(228, 155, 82);
+            text-align: center;
+            left: 50%;
+            top: 50%;
+            position: absolute;
+            transform: translateX(-50%) translateY(-50%);
+        }
+
+        .dupehead {
+            font-size: 65px;
+            font-family: 'PT Sans', sans-serif;
+            margin-bottom: 5px;
+        }
+
+        .dupepara {
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: unset;
+            margin-bottom: 40px; 
+        }
+
+        .section-one {
+            background-color: rgb(228, 155, 82);
+            text-align: center;
+            padding: 45px 45px 45px 45px;
+            font-size: 20px;
+            font-weight: lighter;
+            line-height: 28px;
+        }
+
+        div a {
+            text-decoration: none;
+            margin-top: 100px;
+            padding: 15px 35px 15px 35px;
+            border-radius: 35px;
+            font-size: 20px;
+            cursor: pointer;
+            font-weight: bold;
+            border: 3.5px solid rgb(228, 155, 82);
+            background-color: transparent;
+            color: rgb(228, 155, 82);
+        }
+
+        div a:hover {
+            background-color: rgb(228, 155, 82);
+            color: snow;
+            transition-delay: 0.1s;
+            transition-duration: 0.5s;
+        }
+
+        .section-two {
+            background-color: rgb(225, 225, 225);
+            text-align: center;
+            padding: 35px 45px 35px 45px;
+            font-size: 20px;
+            font-weight: lighter;
+            line-height: 28px;
+        }
+
+        .section-three {
+            display: flex;
+        }
+
+        .box-1, .box-3 {
+            padding: 30px 45px 20px 45px;
+            background-color: rgb(228, 155, 82);
+            font-size: 18px;
+            text-align: left;
+        }
+
+        .box-2 {
+            padding: 30px 45px 20px 45px;
+            background-color: rgba(225, 225, 225, 0.767);
+            font-size: 18px;
+            text-align: left;
+        }
+
+        footer {
+        font-family: "lato", sans-serif;
+        text-align: center; 
+        background-color: rgba(0,0,0,0.8);
+        color: white;
+        padding: 4px 3px 3px 3px;
+        font-style: oblique;
+        letter-spacing: 1.2px;
+        }
+        a {
+        color: rgb(228, 155, 82);
+        font-style: oblique;
+        font-weight: lighter;
+        }
+
+        a:hover {
+        color: tomato;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="img">
+        <div class="headings">
+            <h1 class="h1">Welcome To The Beach</h1>
+            <p class="p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi officiis ipsum officia numquam expedita ullam.</p>
+        </div>
+
+        <div class="headings2">
+            <h1 class="dupehead">Welcome To The Beach</h1>
+            <p class="dupepara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi officiis ipsum officia numquam expedita ullam.</p>
+            <a href="#b">Read More</a>
+        </div>
+    </div>
+
+    <section id="b" class="section-one">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit minus impedit maxime, quae soluta quis cumque perferendis! Doloribus quaerat, placeat iste facere, aspernatur ex cum veritatis laudantium, officia, non porro exercitationem incidunt quis dolore? Officia ex accusamus expedita optio, voluptatem minus? In maiores omnis aperiam earum ab molestiae beatae laborum blanditiis incidunt, delectus dolor, id voluptates optio aspernatur aliquam saepe atque labore? Tempore reprehenderit ab ipsam perspiciatis ut, provident perferendis sapiente in numquam blanditiis, enim, illo error nulla incidunt quos quidem ratione repellat ipsa molestias veritatis? Mollitia, fugit dolore commodi porro repudiandae atque, eos, ipsum quam culpa fuga deleniti quae.
+    </section>
+
+    <section class="section-two">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit minus impedit maxime, quae soluta quis cumque perferendis! Doloribus quaerat, placeat iste facere, aspernatur ex cum veritatis laudantium, officia, non porro exercitationem incidunt quis dolore? Officia ex accusamus expedita optio, voluptatem minus? In maiores omnis aperiam earum ab molestiae beatae laborum blanditiis incidunt, delectus dolor, id voluptates optio aspernatur aliquam saepe atque labore? Tempore reprehenderit ab ipsam perspiciatis ut, provident perferendis sapiente in numquam blanditiis, enim, illo error nulla incidunt quos quidem ratione repellat ipsa molestias veritatis? Mollitia, fugit dolore commodi porro repudiandae atque, eos, ipsum quam culpa fuga deleniti quae.
+    </section>
+
+    <section class="section-three">
+        <div class="box-1">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa dolorum est, molestias dolores quis sunt nobis temporibus veritatis libero odio!
+        </div>
+
+        <div class="box-2">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa dolorum est, molestias dolores quis sunt nobis temporibus veritatis libero odio!
+        </div>
+
+        <div class="box-3">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa dolorum est, molestias dolores quis sunt nobis temporibus veritatis libero odio!
+        </div>
+    </section>
+
+    <footer>
+        Coded by <a target="_blank" href="https://www.facebook.com/profile.php?id=100009875589399">Sameer-Shaikh</a>    
+    </footer>
+</body>
+</html>
